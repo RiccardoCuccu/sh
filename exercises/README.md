@@ -1,4 +1,7 @@
 # Bash exercises
+Part of the texts of the exercises contained here were taken from the exercises of the UNIX Shell Programming course (Spring 2014) of the Evergreen Valley College.
+- Exercise 02 => Exercise 12 [[grep Exercise](http://evc-cit.info/cit052/grep1.html)]
+- Exercise 13 => Exercise 20 [[sed Exercise](http://evc-cit.info/cit052/sed_exercise.html)]
 
 ## [Exercise 00](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es00.sh)
 Print "Hello World!".
@@ -38,3 +41,34 @@ Print all lines from the `grepdata.txt` file that do not contain the word `Sep.`
 
 ## [Exercise 12](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es12.sh)
 Print all lines from the `grepdata.txt` file that contain the word `de` as a whole word.
+
+## [Exercise 13](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es13.sh)
+All lines from the `seddata.txt` file with `<article>` and `</article>` should be deleted.
+
+## [Exercise 14](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es14.sh)
+In the `seddata.txt` file replace `<title>` with `Title: ` and replace `</title>` with nothing.
+
+## [Exercise 15](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es15.sh)
+In the `seddata.txt` file replace all `<para>` and `</para>` tags with the null string. If the resulting line is empty, delete the line. (You may need to use curly braces to make this happen.)
+
+## [Exercise 16](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es16.sh)
+In the `seddata.txt` file replace all `<emphasis>` and `</emphasis>` tags with asterisks. Thus:
+`This is a <emphasis>great</emphasis> bargain.`
+will become
+`This is a *great* bargain.`
+
+## [Exercise 17](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es17.sh)
+In the `seddata.txt` file replace the word `web` with `Web` everywhere.
+
+## [Exercise 18](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es18.sh)
+In the `seddata.txt` file replace lines starting with `<listing>` by `---begin listing`
+
+## [Exercise 19](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es19.sh)
+In the `seddata.txt` file replace lines starting with `</listing>` by `---end listing`
+
+## [Exercise 20](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es20.sh)
+In the `seddata.txt` file, between the `<listing>` and `</listing>,` do these things (you must use curly braces to do this!):
+- Replace all occurrences of `&lt;` with `<`.
+- Replace all occurrences of `&gt;` with `>`.
+- Replace all occurrences of `&amp;` with `&`.
+Note: you must do these operations in the order shown above; otherwise, you will get the wrong results!
