@@ -77,3 +77,33 @@ In the _seddata.txt_ file, between the `<listing>` and `</listing>,` do these th
 - replace all occurrences of `&amp;` with `&`.
 
 Note: you must do these operations in the order shown above; otherwise, you will get the wrong results!
+
+## [Exercise 21](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es21.sh)
+Reorder the _canto.txt_ file in reverse order deleting empty lines.
+
+## [Exercise 22](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es22.sh)
+Transpose the 3x3 matrix saved inside the _matrix3.txt_ file without `for` but using `cut`.
+
+## [Exercise 23](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es23.sh)
+Calculates 12! using for.
+
+## [Exercise 24](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es24.sh)
+Calculates the sum of the numbers contained within the _numbers.txt_ file. Note that the first row is a header.
+
+## [Exercise 25](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es25.sh)
+Save the output of a function in a variable in two different methods.
+
+## [Exercise 26](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es26.sh)
+Verify that _./work_ is a directory.
+
+## [Exercise 27](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es27.sh)
+Calculate the squares of the numbers 1 to 5.
+
+## [Exercise 28](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es28.sh)
+Run the conditional evaluation with the old test command (`[...]`) and with the new one (`[[...]]`).
+
+## [Exercise 29](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es29.sh)
+Use a regular expression in the if conditions.
+
+## [Exercise 30](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es30.sh)
+Copy the `helloworld.txt` file from the `./work` directory to a new directory called `./work2`, then if the file has read and write permissions rename it to `helloworld_wr.txt` and finally delete it with the folder.
