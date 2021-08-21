@@ -1,7 +1,7 @@
 # Bash exercises
 Part of the texts of the exercises contained here were taken from the exercises of the UNIX Shell Programming course (Spring 2014) of the Evergreen Valley College.
-- Exercise 04 => Exercise 12 [[grep Exercise](http://evc-cit.info/cit052/grep1.html)]
-- Exercise 13 => Exercise 20 [[sed Exercise](http://evc-cit.info/cit052/sed_exercise.html)]
+- From **Exercise 04** to **Exercise 12** [[grep Exercise](http://evc-cit.info/cit052/grep1.html)]
+- From **Exercise 13** to **Exercise 20** [[sed Exercise](http://evc-cit.info/cit052/sed_exercise.html)]
 
 ## [Exercise 00](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es00.sh)
 Print `Hello World!`.
@@ -107,3 +107,15 @@ Use a regular expression in the if conditions.
 
 ## [Exercise 30](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es30.sh)
 Copy the `helloworld.txt` file from the `./work` directory to a new directory called `./work2`, then if the file has read and write permissions rename it to `helloworld_wr.txt` and finally delete it with the folder.
+
+## [Exercise 31](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es31.sh)
+Use the file descriptors to copy the content of the `canto.txt` file into a new file called `log.out`.
+
+## [Exercise 32](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es32.sh)
+Dynamically write a 3x3 matrix into a file called `matrix.txt` structured in this way `[1 2 3, 4 5 6, 7 8 9]`.
+
+## [Exercise 33](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es33.sh)
+Read the 3x3 matrix from the `matrix3.txt` file, transpose it and print it on a file called `transposedmatrix3.txt`.
+
+## [Exercise 34](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es34.sh)
+Read the 3x3 matrix from the `matrix3.txt` file, calculate the square of each value and print it on a file called `squaredmatrix3.txt`.

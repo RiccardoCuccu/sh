@@ -1,2 +1,2 @@
 # sh
-Personal collection of bash exercises
+Personal collection of bash exercises.
