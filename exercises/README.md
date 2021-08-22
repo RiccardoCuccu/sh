@@ -119,3 +119,18 @@ Read the 3x3 matrix from the `matrix3.txt` file, transpose it and print it on a 
 
 ## [Exercise 34](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es34.sh)
 Read the 3x3 matrix from the `matrix3.txt` file, calculate the square of each value and print it on a file called `squaredmatrix3.txt`.
+
+## [Exercise 35](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es35.sh)
+Cycle on all items in the folder and for each item say if it is a directory, an executable file (or not) or something else.
+
+## [Exercise 36](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es36.sh)
+Define an array and print its length.
+
+## [Exercise 37](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es37.sh)
+Define an array and print the list of its elements preceded by the relative index in two different ways.
+
+## [Exercise 38](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es38.sh)
+Define a string and convert it to an array, finally print them both.
+
+## [Exercise 39](https://github.com/RiccardoCuccu/sh/blob/master/exercises/es39.sh)
+Create 30 folders that have the word `exam` as a suffix, followed by numbers ranging from 1 to 30.
