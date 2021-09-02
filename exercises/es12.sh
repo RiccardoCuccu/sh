@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep "\<de\>" ./work/grepdata.txt
+grep -E "\<de\>" ./work/grepdata.txt

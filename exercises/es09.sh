@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep -i "ca" ./work/grepdata.txt
+grep -e "ca" -e "CA" ./work/grepdata.txt

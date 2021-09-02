@@ -1,6 +1,6 @@
 #!/bin/bash
 
-n=3
+n=`head -n 1 ./work/matrix3.txt | wc -w`
 
 for i in $(seq 1 $n)
 do
